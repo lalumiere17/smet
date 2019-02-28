@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    background-color: #f9fafb;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+.smet{
+    width: 100%;
+    height: 100vh;
+    padding-top: 60px;
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.main_illustration{
+    width: 959px;
+    height: 600px;
+    object-fit: contain;
+}
+
+.logo{
+    width: 183px;
+    height: 40px;
+    object-fit: contain;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_logo {
+    width: 85.9px;
+    height: 13px;
+    object-fit: contain;
+}
+.donate{
+    width: 183px;
+    height: 40px;
+    object-fit: contain;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.icon_money {
+    object-fit: contain;
+}
+
+.big_text{
+    margin: 30px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.03;
+    letter-spacing: 0.33px;
+    text-align: center;
+    color: #000000;
+}
+
+.medium_text {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: medium;
+    line-height: 1.25;
+    letter-spacing: 0.3px;
+    color: #3a3a3a;
+}
+
+.regular_text{
+    width: 830px;
+    opacity: 0.7;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 1.89;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
